@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+<form action="thank.html">
+<fieldset>
+<legend>Fill your Info</legend>
+FIRST NAME:    <input
+placeholder="First Name"
+name="firstname"
+type="text"
+value="Ali"/>
+<hr>
+LAST NAME : <input placeholder="last name"
+name="last name"
+type="text"
+value="ansari"/>
+<hr>
+email : <input placeholder="user email" required type="email"/>
+<hr>
+Password : <input placeholder="password" required type="password"/>
+<hr>
+Contact : <input placeholder="Mobile Number" type="text" maxlength="11" />
+<hr>
+D.O.B : <input placeholder="DOB" type="date"/>
+<hr>
+ Your Profile Link :
+<input placeholder="URL" required type="url" />
+<hr />Enter Your comments :
+
+<textarea name="comments" placeholder="Enter your comments" cols="30" rows="10"></textarea>
+</fieldset>
+<br>
+Subject :
+<input id="maleRadio" type="radio" name="subject" value="C.S"/>
+<label for="maleRadio">C.S</label>
+<label><input type="radio" name="subjet" value="Bio" /> Bio</label>
+<br>
+BLOOD GROUP :
+<select
+class="form-select"
+multiple="multiple"
+id="c"
+name="Blood group">
+<option>Select Blood Group</option>
+<option selected value="On">O negative</option>
+<option value="Op">O positive</option>
+<option value="an">A Negative</option>
+<option value="bn">B Negative</option>
+<option value="a positive">A positive</option>
+<option value="b positive">B positive</option>
+<br>
+Upload your picture : <input type="file" />
+<hr>
+<input type="submit" value="Submit your form" />
+
+
+
+
+
+
+</select>
+</form>
+</body>
+</html>
